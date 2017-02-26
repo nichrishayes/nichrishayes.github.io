@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Nick Christopher-Hayes's Blog</title>
-	<link href="http://nichrishayes.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://nichrishayes.github.io/blog"/>
+	<link href="https://nichrishayes.github.io/blog/atom.xml" rel="self"/>
+	<link href="https://nichrishayes.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://nichrishayes.github.io/blog</id>
+	<id>https://nichrishayes.github.io/blog</id>
 	<author>
 		<name>Nicholas Christopher-Hayes</name>
 		<email>chris477@uwmalumni.com</email>
@@ -19,7 +19,7 @@ layout: feed
 			<title>{{ post.title }}</title>
 			<link href="http://nichrishayes.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://nichrishayes.github.io{{ post.id }}</id>
+			<id>https://nichrishayes.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
