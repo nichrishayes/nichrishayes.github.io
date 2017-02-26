@@ -1,2 +1,4 @@
 name: Nick Christopher-Hayes
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
