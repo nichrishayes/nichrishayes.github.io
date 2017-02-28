@@ -42,9 +42,9 @@ li.dropdown {
 }
 
 .dropdown-content {
-    display: none;
+    display: inline;
     position: absolute;
-    background-color: none;
+    background-color: #D1D0CE;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -58,7 +58,7 @@ li.dropdown {
     text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #D1D0CE}
+.dropdown-content a:hover {background-color: #B6B6B4}
 
 .show {display: inline;}
 
