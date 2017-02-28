@@ -7,6 +7,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    overflow: hidden;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -30,15 +31,15 @@ li a, .dropbtn {
     color: #6A287E;
     text-align: center;
     padding: 12px 16px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /*li a:hover, .dropdown:hover .dropbtn {
-    background-color: red; */
+    background-color: none; */
 }
 
-/*li.dropdown {
-    display: inline-block; */
+li.dropdown {
+    display: inline-block;
 }
 
 .dropdown-content {
