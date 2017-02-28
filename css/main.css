@@ -10,7 +10,7 @@ nav ul, footer ul {
     overflow: hidden;
 }
 nav ul li, footer ul li {
-    display: none;
+    display: inline;
     margin-right: 20px;
 }
 a {
