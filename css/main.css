@@ -42,7 +42,7 @@ li.dropdown {
 }
 
 .dropdown-content {
-    display: inline;
+    display: none;
     position: absolute;
     background-color: #D1D0CE;
     min-width: 160px;
