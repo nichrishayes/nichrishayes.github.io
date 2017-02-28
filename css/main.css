@@ -18,7 +18,7 @@ a {
     color: #6A287E;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -34,8 +34,8 @@ li a, .dropbtn {
     text-decoration: underline;
 }
 
-/*li a:hover, .dropdown:hover .dropbtn {
-    background-color: none; */
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: none;
 }
 
 li.dropdown {
@@ -55,13 +55,13 @@ li.dropdown {
     color: #6A287E;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+    display: inline;
     text-align: center;
 }
 
 .dropdown-content a:hover {background-color: #B6B6B4}
 
-.show {display:block;}
+.show {display: inline;}
 
 
 
