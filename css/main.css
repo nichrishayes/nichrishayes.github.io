@@ -97,11 +97,14 @@ p {
     font-size: 1.0em;
     line-height: 1.4em;
     color: #333;
-    margin: 2cm 2cm 2cm 2cm;
+    margin: 1cm 2cm 1cm 2cm;
+}
+px1 {
+    margin: 1cm 2cm 1cm 2cm;
 }
 }
 footer {
-    border-top: 2px solid #B6B6B4;
+    border-top: 3px solid #B6B6B4;
     font-size: .8em;
     text-align: center;
 }
