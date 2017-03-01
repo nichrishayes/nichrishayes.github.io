@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Nicholas Christopher-Hayes, Website Launch!"
 date: 2017-02-26
 ---
