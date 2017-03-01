@@ -70,6 +70,7 @@ img {
 }
 .container {
     padding: 2px 16px;
+    align: center;
 }
 
 /*End card content*/
