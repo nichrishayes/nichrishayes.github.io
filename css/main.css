@@ -97,6 +97,8 @@ p {
     font-size: 1.0em;
     line-height: 1.4em;
     color: #333;
+    margin: 2cm 2cm 2cm 2cm;
+}
 }
 footer {
     border-top: 2px solid #B6B6B4;
