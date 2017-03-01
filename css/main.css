@@ -73,6 +73,13 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+p2 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #333;
+    text-align: center;
+}
 footer {
     border-top: 2px solid #B6B6B4;
     font-size: .8em;
