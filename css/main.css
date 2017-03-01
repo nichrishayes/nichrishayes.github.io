@@ -9,7 +9,7 @@ nav ul, footer ul {
     font-weight: bold;
     overflow: hidden;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-right: 25px;
 }
