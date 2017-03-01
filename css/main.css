@@ -71,6 +71,21 @@ img {
 /*End card content*/
 
 
+/*CV preview box content*/
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+/*End preview box content*/
+
 h1 {
     font-size: 2.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
