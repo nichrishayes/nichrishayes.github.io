@@ -97,7 +97,7 @@ p {
     font-size: 1.0em;
     line-height: 1.4em;
     color: #333;
-    margin: 1cm 2cm 1cm 2cm;
+    text-align: center;
 }
 p.x1 {
     margin: 1cm 2cm 1cm 2cm;
