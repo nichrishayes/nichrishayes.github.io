@@ -9,11 +9,13 @@ nav ul a, footer ul a{
     font-weight: bold;
     overflow: hidden;
     background-color: #6A287E
-    color: white;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 25px;
+}
+nav ul a, footer ul a {
+    color: white;
 }
 a {
     color: #6A287E;
