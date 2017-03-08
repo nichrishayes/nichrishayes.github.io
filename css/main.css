@@ -14,7 +14,7 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 25px;
 }
-a1 {
+a:other {
     color: white;
 }
 a {
