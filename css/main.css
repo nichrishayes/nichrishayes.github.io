@@ -2,27 +2,25 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav ul a, footer ul a{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 14px 16px;
     list-style: none;
     font-weight: bold;
     overflow: hidden;
     background-color: #6A287E
+    color: white;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 25px;
 }
-a:other {
-    color: white;
-}
 a {
     color: #6A287E;
 }
-a:hover {
+/*a:hover {
     text-decoration: underline;
-}
+} Not being used anywhere???*/
 
 /*Dropdown menu content design lives here*/
 li a, .dropbtn {
