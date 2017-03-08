@@ -14,7 +14,7 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 25px;
 }
-nav ul a, footer ul a {
+ul a, ul a {
     color: white;
 }
 a {
