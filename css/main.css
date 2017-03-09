@@ -32,7 +32,7 @@ a {
 }
 
 /*Dropdown menu content design lives here*/
-li a, .dropbtn {
+.dropbtn {
     display: inline;
     color: white;
     text-align: center;
@@ -55,7 +55,7 @@ li.dropdown {
     display: block;
     text-align: center;
 }
-.dropdown-content:hover {background-color: #B6B6B4}
+.dropdown-content a:hover {background-color: #B6B6B4}
 .show {display: inline;}
 /*End of dropdown menu content*/
 
@@ -146,9 +146,12 @@ footer ul{
     font-weight: bold;
     background-color: #6A287E;
 }
-footer ul p a{
+footer ul a{
     line-height: 1.4em;
     color: white;
+}
+footer ul a{
+    color: white
 }
 
 /*Blog Posts*/
