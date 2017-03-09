@@ -30,17 +30,13 @@ nav ul li a:hover:not(.active) {
 a {
     color: #6A287E;
 }
-/*a:hover {
-    text-decoration: underline;
-}*/
 
 /*Dropdown menu content design lives here*/
-li a, .dropbtn {
+.dropbtn {
     display: inline;
     color: white;
     text-align: center;
     padding: 12px 16px;
-    text-decoration: underline;
 }
 li.dropdown {
     display: inline-block;
@@ -53,14 +49,13 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-.dropdown-content a {
+.dropdown-content {
     color: #6A287E;
     padding: 12px 16px;
-    text-decoration: underline;
     display: block;
     text-align: center;
 }
-.dropdown-content a:hover {background-color: #B6B6B4}
+.dropdown-content:hover {background-color: #B6B6B4}
 .show {display: inline;}
 /*End of dropdown menu content*/
 
