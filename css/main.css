@@ -18,20 +18,21 @@ nav ul a {
     color: white;
     padding: 16px 20px;
 }
-nav li a:hover:not(.active) {
-    background-color: white;
-    color: #6A287E
+nav ul li a:hover:not(.active) {
+    background-color: #4E387E;
+    padding: 16px 20px;
 }
 .active {
-    background-color: #4E387E;
+    background-color: white;
+    color: #6A287E;
 }
 
 a {
     color: #6A287E;
 }
-a:hover {
+/*a:hover {
     text-decoration: underline;
-}
+}*/
 
 /*Dropdown menu content design lives here*/
 li a, .dropbtn {
@@ -150,11 +151,8 @@ footer ul{
     font-weight: bold;
     background-color: #6A287E;
 }
-footer ul p{
+footer ul p a{
     line-height: 1.4em;
-    color: #333;
-}
-footer ul a {
     color: white;
 }
 
