@@ -2,9 +2,12 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+/*Navigation styling*/
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
+    padding: 0;
     overflow: hidden;
     background-color: #6A287E;
     font-weight: none;
@@ -13,13 +16,6 @@ li {
     float: left;
     margin-right: 30px;
 }
-/*li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 18px 22px;
-    text-decoration: none;
-}*/
 nav li a:hover:not(.active) {
     background-color: #4E387E;
 }
@@ -31,12 +27,12 @@ a {
     color: #6A287E;
     text-decoration: none;
 }
-/*Dropdown menu content design lives here*/
+/*Nav and Menu content design lives here*/
 li a, .dropbtn {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 22px;
+    padding: 12px 22px;
     text-decoration: none;
 }
 li.dropdown {
