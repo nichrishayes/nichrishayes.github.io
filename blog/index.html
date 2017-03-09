@@ -7,10 +7,10 @@ title: Blog
 <center><img src="diamantina.png" alt="image" width="60%"><center><br>
 
 	
-	<ul class="posts">
+	<span class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> 
-	    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    {{ post.date | date_to_string }}
+	    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 	    {% endfor %}
-	</ul>
+	</span
