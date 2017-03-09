@@ -19,6 +19,7 @@ li a {
     color: white;
     text-align: center;
     padding: 18px 22px;
+    text-decoration: none;
 }
 li a:hover:not(.active) {
     background-color: #4E387E;
@@ -155,7 +156,6 @@ footer ul p{
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-}
-ul.posts li {
-    list-style: none;
+    background-color: none;
+    color: #6A287E;
 }
