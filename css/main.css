@@ -14,7 +14,7 @@ nav li {
     display: inline;
     margin-right: 25px;
 }
-nav li a {
+li a {
     display: block;
     color: white;
     text-align: center;
