@@ -32,7 +32,7 @@ a {
 }
 
 /*Dropdown menu content design lives here*/
-.dropbtn {
+li a, .dropbtn {
     display: inline;
     color: white;
     text-align: center;
