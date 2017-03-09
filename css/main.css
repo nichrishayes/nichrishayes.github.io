@@ -2,27 +2,36 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul{
+nav ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 10px 8px;
+    padding: 0;
     list-style: none;
     font-weight: bold;
     overflow: hidden;
-    background-color: #6A287E
+    background-color: #6A287E;
 }
-nav ul li, footer ul li {
+nav ul li{
     display: inline;
     margin-right: 25px;
 }
-ul a, ul a {
+nav ul a {
     color: white;
+    padding: 14px 16px;
 }
+nav li a:hover:not(.active) {
+    background-color: #4E387E;
+}
+.active {
+    background-color: white;
+    color: #6A287E
+}
+
 a {
     color: #6A287E;
 }
-/*a:hover {
+a:hover {
     text-decoration: underline;
-} Not being used anywhere???*/
+}
 
 /*Dropdown menu content design lives here*/
 li a, .dropbtn {
@@ -52,11 +61,9 @@ li.dropdown {
 }
 .dropdown-content a:hover {background-color: #B6B6B4}
 .show {display: inline;}
-
 /*End of dropdown menu content*/
 
 /*Card content design lives here*/
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -70,12 +77,10 @@ li.dropdown {
 img {
     border-radius: 5px 5px 0 0;
 }
-
 /*End card content*/
 
 
 /*CV preview box content*/
-
 .box{
     display: block;
     width: 100%;
@@ -120,20 +125,46 @@ h5 {
     font-weight: bold;
 }
 
+/*Paragraph entries*/
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.0em;
     line-height: 1.4em;
     color: #333;
 }
+/*Bio paragraph design*/
 p.ex1 {
     margin: 1cm 1cm 1cm 1cm;
 }
+
+/*Footer design*/
 footer {
     border-top: 4px solid #B6B6B4;
     font-size: .7em;
     text-align: center;
 }
+footer ul p{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+    overflow: hidden;
+    background-color: #6A287E;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.0em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer ul li{
+    display: inline;
+    margin-right: 25px;
+}
+footer ul a {
+    color: white;
+    padding: 14px 16px;
+}
+
+/*Blog Posts*/
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
