@@ -10,25 +10,28 @@ nav ul {
     background-color: #6A287E;
     font-weight: bold;
 }
-li {
+nav li {
     display: inline;
     margin-right: 25px;
 }
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
     padding: 18px 22px;
     text-decoration: none;
 }
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color: #4E387E;
 }
 .active {
     background-color: white;
     color: #6A287E;  
 }
-
+a {
+    color: #6A287E;
+    text-decoration: none;
+}
 /*Dropdown menu content design lives here*/
 li a, .dropbtn {
     display: inline;
@@ -42,18 +45,18 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #D1D0CE;
+    background-color: #6A287E;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 .dropdown-content a{
-    color: #6A287E;
+    color: white;
     padding: 12px 16px;
     display: block;
     text-align: center;
 }
-.dropdown-content a:hover {background-color: white}
+.dropdown-content a:hover {background-color: #4E387E}
 .show {display: inline;}
 /*End of dropdown menu content*/
 
@@ -156,6 +159,5 @@ footer ul p{
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    background-color: none;
-    color: #6A287E;
+    color: #333;
 }
