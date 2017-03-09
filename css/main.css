@@ -5,22 +5,21 @@ body {
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
-    padding: 0;
     overflow: hidden;
     background-color: #6A287E;
-    font-weight: bold;
+    font-weight: none;
 }
 li {
     float: left;
     margin-right: 30px;
 }
-li a {
+/*li a {
     display: block;
     color: white;
     text-align: center;
     padding: 18px 22px;
     text-decoration: none;
-}
+}*/
 nav li a:hover:not(.active) {
     background-color: #4E387E;
 }
@@ -34,10 +33,11 @@ a {
 }
 /*Dropdown menu content design lives here*/
 li a, .dropbtn {
-    display: inline;
+    display: block;
     color: white;
     text-align: center;
-    padding: 12px 16px;
+    padding: 18px 22px;
+    text-decoration: none;
 }
 li.dropdown {
     display: inline-block;
@@ -150,6 +150,7 @@ footer ul{
 footer ul a{
     line-height: 1.4em;
     color: white;
+    text-decoration: underline;
 }
 footer ul p{
     color: white
