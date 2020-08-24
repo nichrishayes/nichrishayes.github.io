@@ -166,13 +166,11 @@ span.posts {
 }
 
 	.restable-wrapper table{
+		table-layout: fixed;
 		border-collapse: collapse;
-		border-spacing: 0;
-		margin: 0 0 2rem 0;
 		width: 100%;
-		display: block;
 		height: 400px;       /* Just for the demo          */
-		overflow-y: auto;    /* Trigger vertical scroll    */
+		overflow-y: auto;   /* Trigger vertical scroll    */
 	}
 
 	.restable-wrapper tbody tr {
@@ -200,7 +198,6 @@ span.posts {
 
 	.restable-wrapper thead {
 		border-bottom: solid 2px #000000;
-		text-align: center;
 	}
 
 	.restable-wrapper tfoot {
