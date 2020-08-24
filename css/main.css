@@ -166,7 +166,7 @@ span.posts {
 	/*margin: 0 0 2rem 0;*/
 	width: 100%;
 	display: block;
-	height: 400px;       /* Just for the demo          */
+	height: 300px;       /* Just for the demo          */
 	overflow-y: auto;    /* Trigger vertical scroll    */
 	overflow-x: auto;
 }
@@ -197,7 +197,7 @@ span.posts {
 	border-bottom: solid 2px #000000;
 }
 
-.restable-wrapper tfoot {
+/*.restable-wrapper tfoot {
 	border-top: solid 2px #000000;
-}
+}*/
 
