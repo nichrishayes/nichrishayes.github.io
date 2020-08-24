@@ -166,7 +166,6 @@ span.posts {
 }
 
 	.restable-wrapper table{
-		table-layout: fixed;
 		border-collapse: collapse;
 		width: 100%;
 		display: table-header-group;
@@ -187,13 +186,13 @@ span.posts {
 
 	.restable-wrapper td {
 		padding: 5px;
-		text-align: left;
+		text-align: center;
 	}
 
 	.restable-wrapper th {
 		color: #000000;
 		font-weight: 600;
-		text-align: left;
+		text-align: center;
 	}
 
 	.restable-wrapper thead {
