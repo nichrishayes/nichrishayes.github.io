@@ -158,3 +158,53 @@ span.posts {
     font-size: 1.5em;
     color: #333;
 }
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Table */
+
+.table-wrapper {
+	-webkit-overflow-scrolling: touch;
+	overflow-x: auto;
+}
+
+table {
+	margin: 0 0 2rem 0;
+	width: 100%;
+	display: block;
+	height: 600px;       /* Just for the demo          */
+	overflow-y: auto;    /* Trigger vertical scroll    */
+}
+
+table tbody tr {
+	border: solid 1px #ffffff;
+	border-left: 0;
+	border-right: 0;
+}
+
+table tbody tr:nth-child(2n + 1) {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
+table td {
+	padding: 0.75em 0.75em;
+}
+
+table th {
+	color: #ffffff;
+	font-size: 0.9em;
+	font-weight: 600;
+	padding: 0 0.75em 0.75em 0.75em;
+	text-align: left;
+}
+
+table thead {
+	border-bottom: solid 2px #ffffff;
+}
+
+table tfoot {
+	border-top: solid 2px #ffffff;
+}
