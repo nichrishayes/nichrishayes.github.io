@@ -173,7 +173,6 @@ span.posts {
 
 .restable-wrapper tbody tr {
 	border: solid 1px #ffffff;
-	border-bottom: solid 1px #e0e0e0;
 	border-left: 0;
 	border-right: 0;
 }
@@ -183,11 +182,12 @@ span.posts {
 }
 
 .restable-wrapper td {
+	padding: 10px 15px;
 	text-align: center;
 }
 
 .restable-wrapper th {
-	padding:8px 15px;
+	padding: 5px 15px;
 	color: #000000;
 	font-weight: 600;
 	text-align: center;
@@ -197,7 +197,7 @@ span.posts {
 	border-bottom: solid 2px #000000;
 }
 
-/*.restable-wrapper tfoot {
+.restable-wrapper tfoot {
 	border-top: solid 2px #000000;
-}*/
+}
 
