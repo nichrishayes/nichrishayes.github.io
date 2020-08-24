@@ -159,11 +159,6 @@ span.posts {
     color: #333;
 }
 
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 /* Table */
 
 .table-wrapper {
@@ -172,21 +167,24 @@ table {
 }
 
 table {
+	border-collapse: collapse;
+	border-spacing: 0;
 	margin: 0 0 2rem 0;
 	width: 100%;
 	display: block;
-	height: 600px;       /* Just for the demo          */
+	height: 400px;       /* Just for the demo          */
 	overflow-y: auto;    /* Trigger vertical scroll    */
 }
 
 table tbody tr {
 	border: solid 1px #ffffff;
+	border-bottom: solid 1px #e0e0e0;
 	border-left: 0;
 	border-right: 0;
 }
 
-table tbody tr:nth-child(2n + 1) {
-	background-color: rgba(255, 255, 255, 0.075);
+table tbody tr:nth-child(even) {
+	background-color: rgba(224, 224, 224, 0.075);
 }
 
 table td {
@@ -194,18 +192,18 @@ table td {
 }
 
 table th {
-	color: #ffffff;
+	color: #000000;
 	font-size: 0.9em;
 	font-weight: 600;
-	padding: 0 0.75em 0.75em 0.75em;
-	text-align: left;
+	padding: 0.4em 0.4em 0.4em 0.4em;
+	text-align: center;
 }
 
 table thead {
-	border-bottom: solid 2px #ffffff;
+	border-bottom: solid 2px #000000;
 }
 
 table tfoot {
-	border-top: solid 2px #ffffff;
+	border-top: solid 2px #000000;
 }
 
