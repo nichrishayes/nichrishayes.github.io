@@ -169,8 +169,9 @@ span.posts {
 		table-layout: fixed;
 		border-collapse: collapse;
 		width: 100%;
+		display: table-header-group;
 		height: 400px;       /* Just for the demo          */
-		overflow-y: auto;   /* Trigger vertical scroll    */
+		overflow-y: auto;    /* Trigger vertical scroll    */
 	}
 
 	.restable-wrapper tbody tr {
@@ -185,15 +186,14 @@ span.posts {
 	}
 
 	.restable-wrapper td {
-		padding: 8px;
-		text-align: center;
+		padding: 5px;
+		text-align: left;
 	}
 
 	.restable-wrapper th {
 		color: #000000;
 		font-weight: 600;
-		padding: 8px;
-		text-align: center;
+		text-align: left;
 	}
 
 	.restable-wrapper thead {
